@@ -16,7 +16,3 @@ console.log(err);
 } else {
 console.log('Running on port: ' + app.get('port')); }
 });
-
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-location.href = '/mobile'
-}
